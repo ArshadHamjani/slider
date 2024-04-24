@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-2.jpg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-3.avif" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-2.jpg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="img/prod-1.jpeg" alt="">
+                        </div>
+                        <div class="c_content">
+                            <h2>G-shock</h2>
+                            <p>Price:- <del>8000 rs.</del>5690 rs.</p>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 24,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+                1200:{
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+    </script>
+
+
+</body>
+
+</html>
